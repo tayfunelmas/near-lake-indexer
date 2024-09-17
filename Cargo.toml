@@ -29,7 +29,9 @@ tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
 
 # Please, update the supported nearcore version in .cargo/config.toml file
-near-indexer = { git = "https://github.com/near/nearcore", rev = "7dbfa116bdab065ac417e85281a2e74bab6fc2ef" }
-near-indexer-primitives = { git = "https://github.com/near/nearcore", rev = "7dbfa116bdab065ac417e85281a2e74bab6fc2ef" }
-near-client = { git = "https://github.com/near/nearcore", rev = "7dbfa116bdab065ac417e85281a2e74bab6fc2ef" }
-near-o11y = { git = "https://github.com/near/nearcore", rev = "7dbfa116bdab065ac417e85281a2e74bab6fc2ef" }
+### TODO: DO NOT MERGE: Update the commit to the latest release.
+near-indexer = { git = "https://github.com/near/nearcore", rev = "773aae7c2c546255bd514387269c9d9c3568782f" }
+near-indexer-primitives = { git = "https://github.com/near/nearcore", rev = "773aae7c2c546255bd514387269c9d9c3568782f" }
+near-client = { git = "https://github.com/near/nearcore", rev = "773aae7c2c546255bd514387269c9d9c3568782f" }
+near-config-utils = { git = "https://github.com/near/nearcore", rev = "773aae7c2c546255bd514387269c9d9c3568782f" }
+near-o11y = { git = "https://github.com/near/nearcore", rev = "773aae7c2c546255bd514387269c9d9c3568782f" }
